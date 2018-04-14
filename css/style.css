@@ -6,8 +6,39 @@
    font-family: Times New Roman; 
 }
 
-img, h1, h2, h3{
+.container{background-image: url(img/graph-tile.png); background-repeat: repeat;
+}
+
+.col-3 {
+		width: 23%;  
+		margin:2px; border: solid 2px grey;
+ }  
+
+
+h1{
     margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color:#ba1820;
+}
+
+span{
+	text-transform: uppercase;
+    color:grey;
+    font-size: 12pt;
+}
+
+h3{margin-top: 20px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+
+p{
+    margin-bottom: 20px;
     text-align: center;
 }
 
