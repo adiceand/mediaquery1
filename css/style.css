@@ -2,34 +2,12 @@
     rojo: #ba1820;
     font-family: Times New Roman;
 */
-@media screen and (max-width:480px){
-    h1{
-        text-align:center;
-        color:purple;
-        background-color: yellow;
-    }
+*{
+   font-family: Times New Roman; 
 }
 
-@media screen and (min-width:480px) and (max-width:767px){
-    h1{
-        text-align:center;
-        color:red;
-        background-color: blue;
-    }
-}
-    
-@media screen and (min-width:768px) and (max-width:1023px){
-    h1{
-        text-align:center;
-        color:pink;
-        background-color: aqua;
-    }
+img, h1, h2, h3{
+    margin-top: 20px;
+    text-align: center;
 }
 
-@media all and (min-width:1024px){
-    h1{
-        text-align:center;
-        color: white;
-        background-color:black;
-    }
-}
