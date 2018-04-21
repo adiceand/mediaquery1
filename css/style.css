@@ -3,42 +3,74 @@
     font-family: Times New Roman;
 */
 *{
-   font-family: Times New Roman; 
+   font-family: font-family: 'Merriweather', serif;; 
 }
 
-.container{background-image: url(img/graph-tile.png); background-repeat: repeat;
+.container{background-image: url(../img/graph-tile.png); background-repeat: repeat;
 }
 
 .col-3 {
 		width: 23%;  
-		margin:2px; border: solid 2px grey;
+		margin:2px; border: solid 2px #a9abae;
+        border-radius: 10px;
  }  
 
 
-h1{
+h1{ font-family: 'Oswald', serif;
     margin-top: 20px;
     text-align: center;
     text-transform: uppercase;
     color:#ba1820;
+    font-size: 16pt;
+
 }
 
-span{
+.reference{
 	text-transform: uppercase;
     color:grey;
-    font-size: 12pt;
+    font-size: 16pt;
+    font-family: 'Oswald', serif;
 }
 
+.titulo{
+    text-transform: uppercase;
+    color:#ba1820;
+    font-size: 30pt;
+    font-family: 'Oswald', serif;
+}
 h3{margin-top: 20px;
     text-align: center;
 }
 
-h2{
+h2{font-family: 'Oswald', serif,;
     text-align: center;
+    font-style: italic;
+    font-size: 10pt;
+    color:#a9abae;
+
 }
 
 
 p{
     margin-bottom: 20px;
-    text-align: center;
+    text-align: justify;
+    font-size: 12pt;
 }
 
+.capitular{
+   font-family: 'Merriweather', serif;
+   font-size: 40pt;
+   color:#ba1820;
+}
+.rojo{
+    font-size: 12pt;
+   color:#ba1820;
+   text-transform: uppercase;
+}
+
+@media all and (max-width: 480px){
+	.container {
+		width: 480px;
+	}
+
+}
